@@ -11,13 +11,14 @@
     <h1>Birthday Calculator</h1>
     <p>This is a calculator to help you know the day you were born</p>
     <div class="form">
-        <form id="ageinput">
+        <form id="ageinput" name="formname" onsubmit="calculator()">
             <label for="date">Input Date of birth</label> <input type="date" id="date" required>
             <label for="gender">Male</label><input type="radio" name="gender" id="malegender" value="male">
             <label for="gender">Female</label><input type="radio" name="gender" id="femalegender" value="female">
             <input type="submit" value="submit">
         </form>
     </div>
+    <div class="output"></div>
     <script src="script.js"></script>
 </body>
 </html>
