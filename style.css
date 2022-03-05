@@ -34,13 +34,25 @@ span{
     font-size: 20px;
     padding-top: 50px;
 }
+.akannames{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ul1{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+#h21{
+     color:rgb(209, 60, 60);
+}
 .form{
     padding-top: 50px;
     margin-left: 60%;
 }
 .copyright{
     border: 1px solid gray;
-    margin-top: 13%;
+    margin-top: 1%;
     
     text-align: center;
 
