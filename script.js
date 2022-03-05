@@ -22,3 +22,9 @@ var gender = 'male';
 } else {
 var gender = 'female';
 }
+//to select the month
+if (mm < 1 || mm> 12) {
+    alert("Not valid!");
+    } else if (dd < 1 || dd> 31) {
+        alert("enter a valid day");
+        }
