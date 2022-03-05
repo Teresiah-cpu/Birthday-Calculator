@@ -5,6 +5,7 @@
 }
 body{
     background-color: aliceblue;
+    
 }
 .h1{
     text-align: center;
@@ -28,4 +29,12 @@ span{
 .form{
     padding-top: 50px;
     margin-left: 60%;
+}
+.copyright{
+    border: 1px solid blue;
+    margin-top: 15%;
+    
+    text-align: center;
+
+
 }
