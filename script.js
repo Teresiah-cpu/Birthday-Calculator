@@ -15,3 +15,10 @@ var mm = document.getElementById("month").value;
 var male = document.getElementById("male").checked;
 var female = document.getElementById("female").checked;
 }
+//to select the gender
+if (document.getElementById("male").checked) {
+var gender = 'male';
+
+} else {
+var gender = 'female';
+}
