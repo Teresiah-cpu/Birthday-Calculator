@@ -55,16 +55,32 @@ span{
    display: flex;
    padding-top: 40px;
    align-items: center;
-   margin-left: 25%;
+   margin-left: 15%;
    padding-left: 10px;
    padding-right: 10px;
    margin-top: 40px;
    border: 1px solid gray;
    margin-right: 20%;
+   padding-bottom: 20px;
 
 }
+.day{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.year{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.gender{
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .submit{
-    padding-top: 40px;
+    padding-top: 4px;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 .copyright{
     border: 1px solid gray;
