@@ -46,9 +46,25 @@ span{
 #h21{
      color:rgb(209, 60, 60);
 }
-.form{
+/*.form{
     padding-top: 50px;
     margin-left: 60%;
+    
+}*/
+.user2{
+   display: flex;
+   padding-top: 40px;
+   align-items: center;
+   margin-left: 25%;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 40px;
+   border: 1px solid gray;
+   margin-right: 20%;
+
+}
+.submit{
+    padding-top: 40px;
 }
 .copyright{
     border: 1px solid gray;
