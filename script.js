@@ -57,3 +57,28 @@ if (dayOfTheWeek == 0) {
   }
     
 }     
+else if (male) {
+if (dayOfTheWeek == 0) {
+  document.getElementById("results").innerHTML =
+  alert("You were born on Sunday hence your Akan name is.. " + maleGender[0]);
+  } else if (dayOfTheWeek == 1) {
+  document.getElementById("results").innerHTML =
+  alert("You were born on Monday hence your Akan name is.. " + maleGender[1]);
+  } else if (dayOfTheWeek == 2) {
+  document.getElementById("results").innerHTML =
+  alert("You were born on Tuesday hence your Akan name is.. " + maleGender[2]);
+  } else if (dayOfTheWeek == 3) {
+  document.getElementById("results").innerHTML =
+  alert("You were born on Wednesday hence your Akan name is.. " + maleGender[3]);
+  } else if (dayOfTheWeek == 4) {
+  document.getElementById("results").innerHTML =
+  alert("you were born on Thursday hence your Akan name is.. " + maleGender[4]);
+  } else if (dayOfTheWeek == 5) {
+  document.getElementById("results").innerHTML =
+  alert("You were born on Friday hence your Akan name is.. " + maleGender[5]);
+  } else if (dayOfTheWeek == 6) {
+  document.getElementById("results").innerHTML =
+  alert("You were born on Saturday hence your Akan name is.. " + maleGender[6]);
+  }
+    
+} 
