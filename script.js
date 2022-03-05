@@ -30,8 +30,15 @@ if (mm < 1 || mm> 12) {
         }
 
  //formula calculation
-        var dayOfTheWeek = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;  
-        //names selection for females
+
+var dayOfTheWeek = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;  
+//CC - century digits. For example 1989 has CC = 19
+//YY - Year (1989 has YY = 89)
+//MM - Month
+//DD - Day of the month
+//mod -modulus function ( % )
+
+//names selection for females
 if (female) {
 if (dayOfTheWeek == 0) {
   document.getElementById("results").innerHTML =
@@ -81,4 +88,8 @@ if (dayOfTheWeek == 0) {
   alert("You were born on Saturday hence your Akan name is.. " + maleGender[6]);
   }
     
-} 
+} else {
+  alert("First fill the form!");
+  }
+
+  
